@@ -45,12 +45,19 @@ ul > li {
   border-radius: 15px;
   text-align: center;
   justify-content: center;
+  color: black;
+  font-weight:700;
+  margin-top: 0.5em;
+  
 }
 
+
+
 .item-nav:hover {
-  background-color: #2aceb3;
-  color: rgb(0, 0, 0);
+  background-color: #000000;
+  color: rgb(255, 255, 255);
   transition: background-color 0.3s, color 0.3s;
+  border: 2px solid #2aceb3;
 }
 
 .cta-btn {
